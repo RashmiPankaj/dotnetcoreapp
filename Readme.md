@@ -13,3 +13,19 @@ Create a new folder in file system. Open the folder in [Visual Studio Code](http
 * ``` git commit -m "Initial commit" ```
 * ``` git push -u origin master ```
 
+### Multi-arch based .Net core docker images
+* Docker has a [multi-arch](https://github.com/moby/moby/issues/15866) feature that [microsoft/dotnet-nightly](https://hub.docker.com/r/microsoft/dotnet-nightly/) recently started utilizing. The plan is to port this to the [official microsoft/dotnet repo](https://hub.docker.com/r/microsoft/dotnet/) shortly. The multi-arch feature allows a single tag to be used across multiple machine configurations. Without this feature each architecture/OS/platform requires a unique tag. 
+* Create a new file in the folder. Rename it as ``` Dockerfile ```
+* ``` dockerfile
+      FROM microsoft/aspnetcore-build-nightly AS builder
+      WORKDIR /source
+      COPY *.csproj .
+      RUN dotnet restore
+      COPY . .
+      RUN dotnet publish --output /app/ --configuration Release
+      FROM microsoft/aspnetcore-nightly
+      WORKDIR /app
+      COPY --from=builder /app .
+      ENTRYPOINT ["dotnet", "multiarchapp.dll"]
+  ```
+
