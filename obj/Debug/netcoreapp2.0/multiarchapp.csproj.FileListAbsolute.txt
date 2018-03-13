@@ -1,0 +1,10 @@
+C:\Projects\multiarchapp\bin\Debug\netcoreapp2.0\multiarchapp.deps.json
+C:\Projects\multiarchapp\bin\Debug\netcoreapp2.0\multiarchapp.runtimeconfig.json
+C:\Projects\multiarchapp\bin\Debug\netcoreapp2.0\multiarchapp.runtimeconfig.dev.json
+C:\Projects\multiarchapp\bin\Debug\netcoreapp2.0\multiarchapp.dll
+C:\Projects\multiarchapp\bin\Debug\netcoreapp2.0\multiarchapp.pdb
+C:\Projects\multiarchapp\obj\Debug\netcoreapp2.0\multiarchapp.csproj.CoreCompileInputs.cache
+C:\Projects\multiarchapp\obj\Debug\netcoreapp2.0\multiarchapp.AssemblyInfoInputs.cache
+C:\Projects\multiarchapp\obj\Debug\netcoreapp2.0\multiarchapp.AssemblyInfo.cs
+C:\Projects\multiarchapp\obj\Debug\netcoreapp2.0\multiarchapp.dll
+C:\Projects\multiarchapp\obj\Debug\netcoreapp2.0\multiarchapp.pdb

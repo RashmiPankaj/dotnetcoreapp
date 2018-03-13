@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("mutiarchapp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("multiarchapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("mutiarchapp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("mutiarchapp")]
+[assembly: System.Reflection.AssemblyProductAttribute("multiarchapp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("multiarchapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

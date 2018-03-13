@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using mutiarchapp.Models;
+using multiarchapp.Models;
 
-namespace mutiarchapp.Controllers
+namespace multiarchapp.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace mutiarchapp.Models
+namespace multiarchapp.Models
 {
     public class ErrorViewModel
     {

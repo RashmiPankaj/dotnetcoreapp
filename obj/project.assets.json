@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\mutiarchapp\\mutiarchapp.csproj",
-      "projectName": "mutiarchapp",
-      "projectPath": "C:\\Projects\\mutiarchapp\\mutiarchapp.csproj",
+      "projectUniqueName": "C:\\Projects\\multiarchapp\\multiarchapp.csproj",
+      "projectName": "multiarchapp",
+      "projectPath": "C:\\Projects\\multiarchapp\\multiarchapp.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\mutiarchapp\\obj\\",
+      "outputPath": "C:\\Projects\\multiarchapp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
